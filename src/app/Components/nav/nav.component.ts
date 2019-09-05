@@ -31,7 +31,7 @@ Nonotify:boolean;
    
     this.userId = localStorage.getItem('userId');
     
-    this.getNotify();
+    
   }
   onClick(){
     
@@ -44,7 +44,7 @@ Nonotify:boolean;
       
       this.Nonotify = false;
       this.notifyArray = [];
-    
+     this.getNotify();
       this.notifications.map(x=>{
       
         this.notifyArray.unshift(x)
