@@ -12,8 +12,8 @@ const HttpUploadOptions = {
   providedIn: 'root'
 })
 export class Userservice {
-  // domain = 'http://localhost:3000';
-  domain ='http://api.bugissue.tech';
+  domain = 'http://localhost:3000';
+  // domain ='http://api.bugissue.tech';
   authToken;
   user;
   
