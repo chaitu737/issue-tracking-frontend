@@ -36,7 +36,7 @@
 
        <div class="col-md-6">
           <h5>Image</h5>
-        <img src="http://localhost:3000/uploads/{{issue.image}}" width="50%">
+        <img src="http://api.bugissue.tech/uploads/{{issue.image}}" width="50%">
           <input style="display:none" type="file"  (change)=" onFileSelected($event)"  #fileInput>
           <br>
           <br>
@@ -62,7 +62,7 @@
 
          <div class="col-md-6">
             <h5>Image</h5>
-            <img *ngIf="issue!=null" src="http://localhost:3000/uploads/{{issue.image}}" width="50%">
+            <img *ngIf="issue!=null" src="http://api.bugissue.tech/uploads/{{issue.image}}" width="50%">
               <br>
   </div>
 </div>
