@@ -13,7 +13,7 @@ const HttpUploadOptions = {
 })
 export class Userservice {
   // domain = 'http://localhost:3000';
-  domain ='http://bugissue.tech';
+  domain ='http://api.bugissue.tech';
   authToken;
   user;
   

@@ -11,7 +11,7 @@ import { HttpClient,HttpHeaders,HttpErrorResponse } from "@angular/common/http";
 })
 export class SocketService {
   // private url= "http://localhost:3000";
-  private url ='http://bugissue.tech';
+  private url ='http://api.bugissue.tech';
   private socket;
 
 
