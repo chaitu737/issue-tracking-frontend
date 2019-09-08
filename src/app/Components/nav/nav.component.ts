@@ -29,10 +29,7 @@ Nonotify:boolean;
 
   ngOnInit() {
    
-    // this.userId = localStorage.getItem('userId');
-    this.isLoggedIn();
-    
-    
+    this.userId = localStorage.getItem('userId');
     
     
   }
@@ -62,16 +59,11 @@ Nonotify:boolean;
   isLoggedIn(){
     if(this.userId==null){
       this.ishidden= true;
-  
+      return this.ishidden;
     }else{
-      this.ishidden = false;
-    this.userId = localStorage.getItem('userId');
-    
+      return false;
     }
   }
-
-
- 
 
   public logout: any = ()=>{
    
