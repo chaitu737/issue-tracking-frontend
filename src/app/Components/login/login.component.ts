@@ -37,6 +37,7 @@ export class LoginComponent implements OnInit {
   }
   
   this.userService.login(user).subscribe(data=>{
+    console.log(data);
   
    this.Userdata = data;
    if(!this.Userdata.success){
